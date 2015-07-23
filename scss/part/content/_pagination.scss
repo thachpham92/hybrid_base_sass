@@ -1,0 +1,41 @@
+/* ====== PAGINATION ====== */
+
+/* === Single posts using <!--nextpage--> === */
+
+.page-links {}
+
+.page-links .before {}
+
+.page-links a {}
+.page-links a:hover {}
+
+/* === Single post navigation (between different posts) === */
+
+.loop-nav {}
+
+.loop-nav a {}
+.loop-nav a:hover {}
+
+.loop-nav a[rel="prev"] {}
+
+.loop-nav a[rel="next"] {}
+
+/* === Archive-type pages === */
+
+.loop-pagination {}
+
+.loop-pagination .page-numbers {}
+
+.loop-pagination a.page-numbers {}
+.loop-pagination a.page-numbers:hover {}
+
+.page-numbers.current {}
+
+/* === Comments pagination === */
+
+.comments-nav {}
+
+.comments-nav a {}
+.comments-nav a:hover {}
+
+.comments-nav .page-numbers {}

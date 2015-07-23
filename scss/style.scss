@@ -1,0 +1,88 @@
+/**
+ * Theme Name:  ThachPham Theme V2
+ * Theme URI:   http://themehybrid.com/themes/hybrid-base
+ * Description: Theme riêng dành cho ThachPham.com
+ * Version:     1.0.0
+ * Author:      Thach Pham
+ * Author URI:  http://thachpham.com
+ * Tags:        one-column, two-columns, custom-background, custom-header, custom-menu, featured-images, left-sidebar, post-formats, responsive-layout, right-sidebar, rtl-language-support, threaded-comments, translation-ready
+ * Text Domain: hybrid-base
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/*
+ *  Reset
+ *  Using nornalize
+ */
+@import "part/reset";
+
+/*
+ *  Base
+ * Style for common base HTML element e.g: body, html, ul, ol,...
+ */
+@import "part/base";
+
+/*
+ *  Media
+ * Style for media object e.g: img, thumbnail, caption, gallery,...
+ */
+@import "part/media";
+
+/*
+ *  Layout
+ *  CSS for main layout
+ */
+@import "part/layout";
+
+/*
+ *  Header
+ *  Make up header
+ */
+@import "part/header";
+
+/*
+ *  Media
+ *  CSS for all navigations
+ */
+@import "part/menu";
+
+
+/*
+ * Content
+ * All of the content CSS
+  @import "breadcrumb"
+  @import "post"
+  @import "attachment"
+  @import "loop-meta"
+  @import "pagination"
+ */
+@import "part/content/index";
+
+
+/*
+ *  Sidebar & Widget
+ *  CSS for sidebar and all widget
+ */
+@import "part/sidebar/index";
+
+/*
+ *  Comment
+ *  Style for comment form and comment list
+ */
+@import "part/comment";
+
+/*
+ *  Footer
+ */
+@import "part/footer";
+
+/*
+ *  Extend
+ */
+@import "part/extend";
+
+/*
+ *  Extend
+ */
+@import "part/query";
